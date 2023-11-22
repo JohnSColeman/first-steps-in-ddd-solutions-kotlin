@@ -1,4 +1,4 @@
-# First Steps in Domain-Driven Design - Java Solution
+# First Steps in Domain-Driven Design - Kotlin Solution
 ![Build](https://github.com/andrewharmellaw/first-steps-in-ddd/workflows/Build/badge.svg) [![Known Vulnerabilities](https://snyk.io/test/github/andrewharmellaw/first-steps-in-ddd/badge.svg?targetFile=build.gradle)](https://snyk.io/test/github/andrewharmellaw/first-steps-in-ddd?targetFile=build.gradle)
 
 This is the starter project for the exercises in the "First Steps in Domain-Driven Design" course for O'Reilly.  If you are more of a dotnet person, take a look at the [C# version of this codebase](https://github.com/First-Steps-in-DDD-Community/first-steps-in-ddd-solutions-dotnet/blob/main/README.md) (Thanks to @BAPostma for contributing this).
