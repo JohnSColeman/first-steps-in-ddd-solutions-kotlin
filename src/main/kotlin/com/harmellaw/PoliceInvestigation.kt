@@ -4,5 +4,5 @@ import arrow.core.NonEmptySet
 
 class PoliceInvestigation(val pncId: PNCId, val suspects: NonEmptySet<Suspect>) {
 
-    fun addSuspect(suspect: Suspect) = PoliceInvestigation(this.pncId, suspects + suspect)
+    operator fun plus(suspect: Suspect) = PoliceInvestigation(pncId, suspects + suspect)
 }
