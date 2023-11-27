@@ -1,4 +1,4 @@
-package com.harmellaw
+package com.harmellaw.investigation
 
 /*
  * List from https://www.cps.gov.uk/sites/default/files/documents/publications/annex_1a_table_of_offences_scheme_c.pdf
@@ -10,7 +10,7 @@ sealed class CriminalOffence(val value: String) {
     data object ImpersonatingCustomsOfficer : CriminalOffence("Impersonating Customs officer")
     data object KeepingADisorderlyHouse : CriminalOffence("Keeping a disorderly house")
     data object CorruptionInPublicOffice : CriminalOffence("Corruption in public office")
-    data object CuttingAwayBuoys : CriminalOffence("Cutting away buoys etc")
+    data object CuttingAwayBuoysEtc : CriminalOffence("Cutting away buoys etc")
     data object FalseEvidenceBeforeEuropeanCourt : CriminalOffence("False evidence before European Court")
     data object FiringOnRevenueVessel : CriminalOffence("Firing on Revenue vessel")
     data object FraudulentEvasionOfAgriculturalLevy : CriminalOffence("Fraudulent evasion of agricultural levy")
